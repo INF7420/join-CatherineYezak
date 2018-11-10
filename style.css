@@ -8,8 +8,23 @@ background: green
   margin: 0;
 }
 
+.main-navigation a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  transition: .3s background-color;
+}
 
-.main-naviation li {
+.main-navigation a:hover {
+  background-color: #00FF00;
+}
+
+.main-navigation a.active{
+  background-color: #000000;
+  color: #FFFFFF;
+  
+   
+.main-navigation li {
   font-size: 1.5em;
   line height: 20px;
   height: 20px;
