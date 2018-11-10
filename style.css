@@ -22,7 +22,8 @@ background: green
 .main-navigation a.active{
   background-color: #000000;
   color: #FFFFFF;
-  
+  cursor: default;
+}
    
 .main-navigation li {
   font-size: 1.5em;
