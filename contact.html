@@ -16,6 +16,7 @@
   <meta name="Description" content="INF 7420 Project">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <nav>
@@ -34,18 +35,42 @@
 
  <h1>Contact BookSmash</h1>
 
- <img scr="images/contact.jpg" alt="image of sticky note with contact me written on it"/>
+ <img scrc="images/contact.jpg" alt="image of sticky note with contact me written on it"/>
 
- <img scr="images/teen-phone.jpg" alt="image of teenage girl talking on old rotary phone"/>
+ <img src="images/teen-phone.jpg" alt="image of teenage girl talking on old rotary phone"/>
+  
+  <script 
+  src="https://formspree.io/fz9495@wayne.edu" method="POST"></script>
+  <script>
+    validate.init();
+  </script>
+   
 
-  <h2> Contact {color: green}</h2>
-  <li><a ref="specific questions"</a>
-  <li><a ref="Requesting Information"</a>
-  <li><a href="Post Book Critique"</a>
-  <li><a href="Post Writing and Drawing Critiques"</a>
-  <a href="#">Email</a>
-   <a href="#">Question</a>
- </li>
+    <div>
+      <label for="name">Name
+        <input id="name" type="text" name="name" class="form-input">
+      </label>
+    </div>
 
+    <div>
+     <label for="email">Email
+       <input id="email" type="email" name="_replyto" class="form-input" required>
+    </label>
+
+  <div>
+  <label for="message"> Message
+    <textarea id="message" name="message" class="form-input" required></textarea>
+  </label>
+</div>
+
+<div>
+ <button type="submit">Send</button>
+</div>
+
+<main>
+    <h1 class="Thanks">Thank you for visiting</h1>
+    <p class="Thanks">I will get back to you shortly</p>
+</main>
+      
  </body>
 </html>
