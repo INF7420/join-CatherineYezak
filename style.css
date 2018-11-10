@@ -1,6 +1,7 @@
 .main-navigation {
 background: green
 }
+
 .main-navigation ul {
   list style: none;
   text-align: center;
@@ -31,6 +32,21 @@ background: green
   height: 20px;
   border-bottom: 2px solid; yellow
 }
+
+@media screen and (min-width: 600px) {
+  .main-navigation li {
+   border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: in-line block;
+    margin-right: -5px;
+     }
+  
+.main-navigation a {
+  padding: 0 1em;
+  }
+  
 img {
   max-width 00%
 }
