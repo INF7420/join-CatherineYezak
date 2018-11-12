@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="Description" content="INF 7420 Project">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Document</title>
-</head>
-<body>
- <nav>
+  
+  <nav class="main-navigation">
   <ul>
    <li>
     <a href="index.html">Home</a>
    </li>
    <li>
-    <a href="about.html">About BookSmash</a>
+    <a href="about.html" class="active">About BookSmash</a>
    </li>
    <li>
     <a href="contact.html">Contact BookSmash</a>
@@ -21,11 +16,34 @@
   </ul>
  </nav>
 
+  <title>Font Family</title>
+  <style type="text/css">
+    body {
+      font-family: Georgia, serif;
+      font-size 14px:}
+    h1, h2 {
+      font-family: sans-serif;
+      font-size: 200%, 1.5cm:}
+    .credits {
+      font-family: Courier:}
+  </style>
+  </head>
+  <meta charset="utf-8">
+  <meta name="Description" content="INF 7420 Project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+<link rel="stylesheet"
+href=https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <main>
  <h1>About BookSmash</h1>
 
- <img scr="images/read.jpg" alt="open book with the word read across it"/>
+ <img src="images/read.jpg" alt="open book with the word read across it"/>
 
- <img scr="images/smash.jpg" alt="smash logo"/>
+ <img src="images/smash.jpg" alt="smash logo"/>
 
   <h2>Description {color: green}</h2>
     <p>Booksmash is a site for teens to talk about books, writing, drawing, and being a teen in today's world. </p>
@@ -49,5 +67,6 @@
 
   </li>
 
+  </main>
   </body>
 </html>
