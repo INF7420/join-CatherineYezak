@@ -34,17 +34,63 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+ <nav>
+  <ul>
+   <li>
+    <a href="index.html">Home</a>
+   </li>
+   <li>
+    <a href="about.html">About BookSmash</a>
+   </li>
+   <li>
+    <a href="contact.html" class="active">Contact BookSmash</a>
+   </li>
+  </ul>
+ </nav>
+  
+  
 <main>
+    <h1 class="Thanks">Thank you for visiting</h1>
+    <p class="Thanks">I will get back to you shortly</p>
+</main>
+
+   <form action="https://formspree.io/fz9495@wayne.edu" method="POST">
+
  <h1>Contact BookSmash</h1>
 
  <img src="images/contact.jpg" alt="image of sticky note with contact me written on it"/>
 
  <img src="images/teen-phone.jpg" alt="image of teenage girl talking on old rotary phone"/>
 
-  <h2> Contact {color: green}</h2>
+  <h2> Contact </h2>
   
-  </main>
+     <form action="https://formspree.io/fz9495@wayne.edu" method="POST">
+
+    <div>
+      <label for="name">Name
+        <input id="name" type="text" name="name" class="form-input">
+      </label>
+    </div>
+
+    <div>
+     <label for="email">Email
+       <input id="email" type="email" name="_replyto" class="form-input" required>
+    </label>
+  </div>
+
+  <div>
+  <label for="message"> Message
+    <textarea id="message" name="message" class="form-input" required></textarea>
+  </label>
+</div>
+
+<div>
+ <button type="submit">Send</button>
+</div>
+     
+  <a href="#">Email</a>
+   <a href="#">Question</a>
+ </li>
 
  </body>
 </html>
